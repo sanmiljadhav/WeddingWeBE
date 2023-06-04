@@ -3,7 +3,7 @@
 function App() {
   return (
     <div className="App">
-     <h1>Wedding FE</h1>
+     <h1>Wedding FE DEVELOP</h1>
     </div>
   );
 }
