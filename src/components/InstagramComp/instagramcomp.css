@@ -1,0 +1,30 @@
+.instagram-container{
+    margin-top: 35px;
+}
+
+.instagram-container .instagram-title{
+    font-size: 40px;
+    color: #252525;
+    line-height: 40px;
+    font-weight: bold;
+    padding-top: 8px !important;
+    padding: 0;
+}
+
+.instagram-container .titlepage{
+    text-align: center;
+}
+
+.instagram-container .card{
+    padding: 10px;
+
+}
+
+.insta-image-box .card{
+    height: 246px;
+}
+
+.instagram-container .card-img{
+    height: 100%;
+
+}

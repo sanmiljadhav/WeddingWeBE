@@ -1,0 +1,133 @@
+
+
+/*-- header --*/
+
+/* color: #413c32; */
+
+
+.header {
+    width: 100%;
+    height: 90px;
+    padding: 29px 20px;
+}
+
+.logo .logo-link{
+    font-size: 30px;
+    line-height: 25px;
+    color: rgb(120, 83, 163);
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+.navbar{
+    float: right;
+    padding: 0;
+    padding-top: 2px;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-Link{
+    padding: 0 35px;
+    color: #3f3730;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-Link{
+    text-decoration: none;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-Link:focus{
+     color: #fff;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-Link:hover{
+    color: #fff;
+}
+
+
+.full_bg {
+    background: url(../../assets/images/banner2.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner_main{
+
+   
+    padding-top: 175px;
+}
+
+.banner_po {
+    position: inherit;
+}
+
+
+.build_box {
+    text-align: left;
+    padding-top: 20%;
+}
+
+.build_box .heading {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(120, 83, 163);
+    line-height: 95px;
+    padding-bottom: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.build_box .description {
+    color: #413c32;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-bottom: 55px;
+    cursor: pointer;
+}
+
+.build_box .custom-color{
+    color: #e76f64;
+}
+
+.build_box .quote_btn {
+    font-size: 18px;
+    padding: 17px 55px;
+    font-weight: normal;
+    max-width: 228px;
+    border-radius: 50px;
+    text-transform: none;
+    height: 61px;
+    color:#fff;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    background-color: rgb(120, 83, 163);
+}
+
+
+.build_box .quote_btn:hover{
+    background-color: #413c32;
+}
+
+
+
+
+
+
+
+
+
