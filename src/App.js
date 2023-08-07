@@ -1,10 +1,23 @@
-
+import { BrowserRouter,Routes,Route, Outlet } from "react-router-dom";
+import Home from "./pages/Home";
+import Photographyblog from "./pages/Photography/Photographyblog";
+import Singlestorygallery from "./pages/Singlestorygallery/Singlestorygallery";
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-     <h1>Wedding FE DEVELOP</h1>
-    </div>
+    <>
+    <BrowserRouter>
+    <Routes>
+      <Route path = '/' element = {<Home/>}>
+      
+      </Route>
+      <Route path = '/photography' element = {<Photographyblog/>}/>
+      <Route path = '/singlestorygallery' element = {<Singlestorygallery/>}/>
+      
+    </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 

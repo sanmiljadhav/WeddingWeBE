@@ -1,0 +1,79 @@
+.plans{
+    margin-top: 26px;
+}
+
+.title-header{
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+}
+
+.title-header .plans-title{
+    
+        font-size: 40px;
+        color: #252525;
+        line-height: 40px;
+        font-weight: bold;
+        padding-top: 8px !important;
+        padding: 0;
+}
+
+
+.title-header .plan-info-text{
+    font-size: 19px;
+    color: #191919;
+    line-height: 25px;
+    color: #191919;
+    padding-top: 13px;
+}
+
+
+.plan_box figure img {
+    width: 100%;
+    border: #fff solid 25px;
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68) ;
+}
+
+.plan_box .plan-text-box {
+    background-color: #f8d98f;
+    cursor: pointer;
+    padding: 49px 40px;
+    
+}
+
+.plan-text-box .plan-header{
+     color: #252525;
+     font-weight: bold;
+     font-size: 20px;
+     line-height: 22px;
+     padding-bottom: 10px;
+     transition: ease-in all 0.5s;
+     text-transform: uppercase;
+
+}
+
+.plan-text-box .plan-description {
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    padding-bottom: 30px;
+}
+
+.plan-text-box .read-more {
+    font-size: 17px;
+    background-color: rgb(120, 83, 163);
+    color: #fff;
+    padding: 6px 0px;
+    width: 100%;
+    max-width: 157px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 43px;
+    text-decoration: none;
+}
+
+/* background-color: #413c31; */
