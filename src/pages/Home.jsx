@@ -5,6 +5,7 @@ import Youtubecomp from '../components/YoutubeComp/Youtubecomp'
 import Enquire from '../components/Enquire/Enquire'
 import Indexblogcomp from '../components/IndexBlogComponent/Indexblogcomp'
 import Instagramcomp from '../components/InstagramComp/Instagramcomp'
+import Sociallinks from '../components/Sociallinks/Sociallinks'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Enquire/>
       <Indexblogcomp/>
       <Instagramcomp/>
+      <Sociallinks/>
     </div>
   )
 }

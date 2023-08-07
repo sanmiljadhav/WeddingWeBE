@@ -1,0 +1,40 @@
+.single-story-gallery{
+    
+        margin-top: 35px;
+    
+}
+
+.single-story-box .card img{
+    width: 100%;
+}
+
+.sliderWrap{
+
+}
+
+.sliderWrap .icons-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderWrap .btn-close{
+    font-size: 30px;
+    color: black;
+
+}
+
+.sliderWrap .btn-prev{
+    font-size: 30px;
+    color: black;
+
+    
+}
+
+.sliderWrap .btn-next{
+    font-size: 30px;
+    color: black;
+
+    
+}
+

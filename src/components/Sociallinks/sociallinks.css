@@ -1,0 +1,49 @@
+.social-links{
+    padding: 20px;
+}
+
+.contact {
+    background-color: rgb(120, 83, 163);;
+    padding-bottom: 20px;
+    margin-top: 160px;
+}
+
+
+
+.contact .titlepage h2 {
+    color: #fff;
+}
+
+.contact .titlepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    font-weight: bold;
+    padding-top: 8px !important;
+    padding: 0;
+}
+
+.contact .contactus-header{
+    font-size: 50px;
+    color: white;
+}
+
+.link-comp{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon-name {
+   
+    
+    background: transparent;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: none;
+   
+    
+
+}
