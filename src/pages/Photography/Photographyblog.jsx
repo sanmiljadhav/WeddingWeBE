@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import Singleblog from '../../components/Singleblog/Singleblog';
 import Navbar from '../../components/Navbar/Navbar';
 import { useNavigate } from 'react-router-dom';
+import Sociallinks from '../../components/Sociallinks/Sociallinks';
+import Whatsappicon from '../../components/Whatsappicon/Whatsappicon';
 
 
 export default function Photographyblog() {
@@ -12,6 +14,7 @@ export default function Photographyblog() {
   return (
     <>
     <Navbar/>
+    <Whatsappicon/>
     <div class="blog">
     <div class="container ">
       <div class="row ">
@@ -47,6 +50,7 @@ export default function Photographyblog() {
       </div>
     </div>
   </div>
+  <Sociallinks/>
   </>
   )
 }

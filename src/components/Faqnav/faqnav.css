@@ -1,0 +1,27 @@
+.navbar{
+    float: none;
+}
+
+.faq-nav{
+    padding: 34px;
+    background-color: transparent !important;
+    box-shadow: 0 0px 40px -10px #ddd;
+    
+}
+
+
+.faq-nav .container-fluid .faq-nav-heading{
+    font-size: 1.875rem;
+    line-height: 25px;
+    color: rgb(120, 83, 163);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item{
+    padding: 0 20px;
+    color: #000;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 600;
+}

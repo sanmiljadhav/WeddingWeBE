@@ -1,0 +1,21 @@
+.img-container {
+    height: 300px; /* Set the desired fixed height */
+    display: flex;
+    justify-content: center; /* Center the image vertically */
+    align-items: center; /* Center the image horizontally */
+    overflow: hidden; /* Hide overflow if the image is larger than the container */
+  }
+
+
+  .img-container img {
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  
+  
+  
+  
+  
