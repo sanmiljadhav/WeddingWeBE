@@ -7,10 +7,13 @@ import car_two from "../../assets/images/car_two.jpg"
 import car_three from "../../assets/images/car_three.webp"
 import car_four from "../../assets/images/car_four.jpg"
 import car_five from "../../assets/images/car_five.jpg"
+import {motion} from 'framer-motion'
 
 
 
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft, FaWindowClose } from 'react-icons/fa';
+import Faqnav from "../../components/Faqnav/Faqnav";
+import Whatsappicon from "../../components/Whatsappicon/Whatsappicon";
 
 
 
@@ -34,6 +37,15 @@ export default function Singlestorygallery() {
     },
     {
       img:car_four,
+    },
+    {
+      img: car_five,
+    },
+    {
+      img: car_five,
+    },
+    {
+      img: car_five,
     },
     {
       img: car_five,
@@ -64,9 +76,10 @@ export default function Singlestorygallery() {
 
   return (
     <>
-      <Navbar />
+      <Faqnav/>
 
       <div class="single-story-gallery">
+        <Whatsappicon/>
         <div class="container ">
             {openModal && <div className="sliderWrap ">
                 <div className="icons-box my-4">
@@ -82,14 +95,22 @@ export default function Singlestorygallery() {
 
                 </div>}
           <div class="row ">
+            <div className="col-md-12">
+            <div class="card-group">
             {galleryImages &&
               galleryImages.map((slide, index) => (
-                <div className="col-md-4 single-story-box" onClick={()=>handleOpenModal(index)}>
-                  <div class="card my-4">
+                <div className="card h-80" onClick={()=>handleOpenModal(index)}>
+                  <motion.div class="card" initial={{ scale: 0.8, opacity: 0 }}    
+      animate={{ scale: 1, opacity: 1 }}      
+      transition={{ duration: 0.5, type:'spring', stiffness:120}}        
+      whileHover={{ scale: 1.1 }}            
+      whileTap={{ scale: 0.9 }}>
                     <img src={slide.img} class="card-img-top" alt="..." />
-                  </div>
+                  </motion.div>
                 </div>
               ))}
+              </div>
+              </div>
           </div>
         </div>
       </div>

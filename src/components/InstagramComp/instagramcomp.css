@@ -16,12 +16,14 @@
 }
 
 .instagram-container .card{
-    padding: 10px;
+    padding: 5px;
 
 }
 
 .insta-image-box .card{
     height: 246px;
+    border: none;
+    outline: none;
 }
 
 .instagram-container .card-img{

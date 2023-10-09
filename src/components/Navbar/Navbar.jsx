@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import {motion} from "framer-motion"
 import "./navbar.css";
 import img from "../../assets/images/Lamborghini.jpg";
+import pdf from "../../assets/planpdf/Gujarat.pdf"
+import commonFunctions from "../../utils/common/commonfunctions";
 // var img = require('../../assets/images/Lamborghini.jpg');
 
 
@@ -12,6 +14,27 @@ import img from "../../assets/images/Lamborghini.jpg";
 
 export default function Navbar() {
   const MotionLink = motion(Link);
+  const handleDownload = () => {
+    // Replace 'your-pdf-file.pdf' with the actual path to your PDF file.
+    const pdfUrl = pdf;
+
+    // Create a temporary anchor element and trigger a click event to download the PDF.
+    const a = document.createElement('a');
+    a.href = pdfUrl;
+    a.download = 'wedlockstories-quotation-file.pdf'; // You can set the desired file name here
+    a.style.display = 'none';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  };
+
+
+  const handleContactBtnClick = () =>{
+    commonFunctions.navigateToContactUsGForm();
+  }
+
+ 
+  
   return (
     <>
       <header className="full_bg">
@@ -53,8 +76,8 @@ export default function Navbar() {
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-Link" to="about.html">
-                          About
+                        <Link className="nav-Link" to="/faqs">
+                          Faqs
                         </Link>
                       </li>
                       <li className="nav-item">
@@ -63,7 +86,7 @@ export default function Navbar() {
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-Link" to="contact.html">
+                        <Link className="nav-Link" onClick={handleContactBtnClick}>
                           Contact Us
                         </Link>
                       </li>
@@ -107,6 +130,8 @@ transition={{
                             className="read_more quote_btn"
                             to=""
                             role="button"
+                            onClick={handleDownload}
+
                           >
                             Get A Quote
                           </Link>
